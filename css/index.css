@@ -8,8 +8,7 @@ html {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+  height: 70px;
 }
 html, body, .container {
   height: 100%
@@ -28,6 +27,8 @@ html, body, .container {
 }
 .container .text-muted {
   margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
 }
 .container .text-muted .wider {
   margin: 0 5px
