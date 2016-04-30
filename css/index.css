@@ -17,7 +17,7 @@ html, body, .container {
 .container {
   width: auto;
   max-width: 680px;
-  padding: 0 15px;
+  padding: 0;
 }
 .cool-bg {
   background: url(/img/bg.jpg) no-repeat center center fixed; 
@@ -31,4 +31,22 @@ html, body, .container {
 }
 .container .text-muted .wider {
   margin: 0 5px
+}
+.spacer {
+  height: 50%;
+}
+.inner {
+  width: 100%;
+  margin-top: 26.3%;
+}
+.btn-main {
+  width: 275px;
+  height: 110px;
+  color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
+  border: 0;
+  display: inline-block;
+}
+.btn-main:hover {
+  color: rgba(0,0,0,0);
 }
