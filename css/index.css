@@ -2,7 +2,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+.body-margin {
+  margin-bottom: 60px;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -10,16 +12,16 @@ html {
   /* Set the fixed height of the footer here */
   height: 70px;
 }
-html, body, .container {
+.full-height {
   height: 100%
 }
 .container {
   width: auto;
   max-width: 680px;
-  padding: 0;
 }
 .cool-bg {
-  background: url(/img/bg.jpg) no-repeat center center fixed; 
+  padding: 0;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;

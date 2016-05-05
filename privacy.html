@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Ivan Taxi is a telegram bot that gets you an Uber, where you need it.">
+    <meta name="author" content="Rulikkk">
+
+    <title>Ivan Taxi - telegram bot for Uber</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="body-margin">
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Privacy Policy</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>
+            This page describes the way our Telegram bot works with data and permissions, which
+            become available to it, while serving the end user.
+          </p>
+          <h3>Messages</h3>
+          <p>
+            Our bot is based upon Telegram, so all your messages are secured by its protocol.
+            See <a href="https://telegram.org/faq#security">Telegram security</a> and
+            <a href="https://telegram.org/privacy">privacy policy</a> for more information.
+          </p>
+          <p>
+            Our bot (in its application code) has access to all messages, that are sent to it.
+            This is, obviously, required for bot to function properly.
+            These messages are never stored on our servers, they only determine bot's next reply once.
+            These messages are not processed in any other kind of way.
+          </p>
+          <h3>Infrastructure</h3>
+          <p>
+            Our bot consists of three major components: telegram bot, uber api client and web site (not this one).
+            All three parts are hosted in a secure Microsoft's Azure cloud, see more on <a href="https://www.microsoft.com/en-us/TrustCenter/Security/AzureSecurity">Azure security</a>.
+            All the communication with outer world (telegram, uber, site visitors) uses 
+            secure protocol: HTTPS. Local communication is secured by the Azure cloud itself.
+          </p>
+          <h3>Uber</h3>
+          <p>
+            Our bot uses official Uber API to communicate with Uber. Our bot does not and will never ask
+            to type your passwords for any third party apps, sites, etc (including Uber and Telegram). When authorizing, the password
+            is typed on the Uber official site. Our bot will never request rides or do any other
+            communication with Uber API, unless expicitly requested by the end user.
+          </p>
+          <p>
+            To see details, check <a href="https://developer.uber.com">Uber docs</a>,
+            which we used as a primary guide.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">
+          <a class="wider" href="index.html">Home</a> &ndash;
+          <a class="wider" href="info.html">Info</a> &ndash;
+          <a class="wider" href="privacy.html">Privacy policy</a> &ndash;
+          <a class="wider" href="contact.html">Contact us</a> &ndash;
+          <span class="wider">2016</span>
+        </p>
+      </div>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
