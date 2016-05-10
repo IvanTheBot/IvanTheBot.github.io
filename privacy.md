@@ -2,6 +2,7 @@
 layout: default
 title: "Privacy and Security"
 ---
+<div class="row"><div class="col-sm-12" markdown="1">
 
 This page describes the way our Telegram bot works with data and permissions, which
 become available to it, while serving the end user.
@@ -33,3 +34,5 @@ which we used as a primary guide.
 [telegram-privacy]: https://telegram.org/privacy
 [azure-security]: https://www.microsoft.com/en-us/TrustCenter/Security/AzureSecurity
 [uber-docs]: https://developer.uber.com
+
+</div></div>

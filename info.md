@@ -2,13 +2,15 @@
 layout: default
 title: "Information"
 ---
+<div class="row">
+<div class="col-sm-7" markdown="1">
 
 This page describes how to use the [{{ site.data.bot.display }}][bot-url] bot.
 
 ### How to start
 To start, open [this link][bot-url] or look for `{{ site.data.bot.name }}` in your telegram. You will see a welcome message from the bot — just follow its guidance to login to Uber.
 
-### How to book
+### How to book a ride
 The bot reacts to any location sent to it and asks to get an Uber there. 
 
 This can be achieved using several ways:
@@ -20,3 +22,9 @@ This can be achieved using several ways:
 _At any time, you may cancel you request using the following command:_ `/cancel`.
 
 [bot-url]: {{ site.data.bot.url }}
+
+</div>
+<div class="col-sm-5">
+    <img src="img/it.jpg" class="img-responsive">
+</div>
+</div>
