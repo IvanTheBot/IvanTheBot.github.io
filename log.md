@@ -3,6 +3,12 @@ layout: simple
 title: "Blog"
 ---
 
+### Support month <small>8 Jan, 2017</small>
+
+Today is the start of several support works within the bot, which will help it become more stable and responsive.
+During this time bot may experience short downtimes.
+Also, new features are coming, hang tight!
+
 ### Release to public <small>19 May, 2016</small>
 
 Today we announce our bot on many places, so that people know about it.
