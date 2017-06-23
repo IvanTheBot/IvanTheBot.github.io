@@ -2,6 +2,11 @@
 layout: simple
 title: "Blog"
 ---
+### The BIG UPDATE <small>23 July, 2017</small>
+
+The BOT just got a lof of features and now will work in almost all messengers, where you can share location. More is coming!
+
+For now you can check it on telegram and facebook messenger.
 
 ### Support month <small>8 Jan, 2017</small>
 
