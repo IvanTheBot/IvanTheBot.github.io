@@ -2,7 +2,14 @@
 layout: simple
 title: "Blog"
 ---
-### The BIG UPDATE <small>23 July, 2017</small>
+
+### Update stable <small>10 July, 2017</small>
+
+The new telegram bot is stable: [{{ site.data.bot.display }}][bot-url]
+
+The new Facebook bot is also stable: Hit https://m.me/IvanRides to open!
+
+### The BIG UPDATE <small>23 June, 2017</small>
 
 The BOT just got a lof of features and now will work in almost all messengers, where you can share location. More is coming!
 
