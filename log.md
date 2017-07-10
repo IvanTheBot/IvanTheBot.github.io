@@ -7,7 +7,7 @@ title: "Blog"
 
 The new telegram bot is stable: [{{ site.data.bot.display }}][bot-url]
 
-The new Facebook bot is also stable: Hit https://m.me/IvanRides to open!
+The new Facebook bot is also stable: Hit [https://m.me/IvanRides] to open!
 
 ### The BIG UPDATE <small>23 June, 2017</small>
 
