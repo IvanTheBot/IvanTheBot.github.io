@@ -8,7 +8,7 @@ This page describes how to use the [{{ site.data.bot.display }}][bot-url] bot.
 
 ### How to start
 
-To start requesting UBER from Telegram of Facebook Messenger:
+To start requesting UBER from Telegram or Facebook Messenger:
 
 - **Telegram:** open [this link][bot-url] or look for `{{ site.data.bot.name }}` in your telegram.
 - **Facebook Messenger:** open m.me/IvanRides or look for `IvanRides` in Facebook messenger. 
