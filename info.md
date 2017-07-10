@@ -11,7 +11,7 @@ This page describes how to use the [{{ site.data.bot.display }}][bot-url] bot.
 To start requesting UBER from Telegram or Facebook Messenger:
 
 - **Telegram:** open [this link][bot-url] or look for `{{ site.data.bot.name }}` in your telegram.
-- **Facebook Messenger:** open [m.me/IvanRides][https://m.me/IvanRides] or look for `IvanRides` in Facebook messenger. 
+- **Facebook Messenger:** open [m.me/IvanRides](https://m.me/IvanRides) or look for `IvanRides` in Facebook messenger. 
 
 You will see a welcome message from the bot — just follow its guidance to login to Uber.
 
